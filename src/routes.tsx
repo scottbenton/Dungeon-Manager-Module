@@ -6,7 +6,7 @@ export const routes: RouteObject[] = [
     path: "dungeon-manager",
     children: [
       {
-        path: "/",
+        index: true,
         element: <HomePage />,
       },
     ],
