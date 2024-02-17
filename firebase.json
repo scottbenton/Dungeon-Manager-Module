@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "apps-dungeon-manager",
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
