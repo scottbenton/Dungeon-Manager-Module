@@ -1,0 +1,12 @@
+{
+  "extends": "@scottbenton/apps-build/config/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./@mf-types/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "dist"]
+}
