@@ -117,3 +117,6 @@ dist
 
 # Remote Module Types
 .wp_federation/
+
+# Generated types
+@mf-types/
